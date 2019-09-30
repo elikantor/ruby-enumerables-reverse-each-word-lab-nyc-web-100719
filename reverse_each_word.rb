@@ -2,7 +2,7 @@ def reverse_each_word(string)
   newarray = string.split(" ")
   
   newarray.each do |word|
-    print "#{word} ".reverse
+    "#{word} ".reverse
   end
 
 
@@ -15,7 +15,7 @@ def reverse_each_word(string)
   newarray = string.split(" ")
   
   newarray.collect do |word|
-    print "#{word} ".reverse
+    "#{word} ".reverse
   end
 
 

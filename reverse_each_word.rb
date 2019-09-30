@@ -19,6 +19,7 @@ def reverse_each_word(string)
     "#{word}".reverse
   end
 
+  newarray = newarray.join
 
 end
 

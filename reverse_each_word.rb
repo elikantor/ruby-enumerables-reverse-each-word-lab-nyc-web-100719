@@ -3,9 +3,11 @@ def reverse_each_word(string)
   
   newarray.each do |word|
     "#{word}".reverse
+    
+      newarray = newarray.join(" ")
   end
 
-  newarray = newarray.join
+
 
 end
 
@@ -17,9 +19,9 @@ def reverse_each_word(string)
   
   newarray.collect do |word|
     "#{word}".reverse
+    
+    newarray = newarray.join(" ")
   end
-
-  newarray = newarray.join
 
 end
 
